@@ -14,7 +14,7 @@ public class Servlet1 extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		String name = request.getParameter("name");
 		out.println("<h1>Sevlet page</h1>");
-		out.println("<h2>Welcome "+name+"</h2>");
+		out.println("<h2>Hello "+name+"</h2>");
 	}
 
 }
